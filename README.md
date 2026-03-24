@@ -27,10 +27,6 @@ Les utilisateurs et rôles sont persistés en base de données et protégés par
 
 ---
 
-## Auteur
-- Nom : Malak El Mallouky
-- Filliere : SIR
-
 **Screenshot des rôles :**
 
 <img width="1053" height="343" alt="roleTable" src="https://github.com/user-attachments/assets/370c8385-ec2d-4222-9f03-9f010571c2c7" />
@@ -88,3 +84,9 @@ Les utilisateurs et rôles sont persistés en base de données et protégés par
 - Les mots de passe sont stockés encodés (BCrypt).
 - Les rôles sont pris en compte pour protéger les routes (`/admin/**` et `/user/**`).
 - Les tables sont créées automatiquement grâce à `spring.jpa.hibernate.ddl-auto=update`.
+
+---
+
+## Auteur
+- Nom : Malak El Mallouky
+- Filliere : SIR
